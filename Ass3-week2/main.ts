@@ -1,9 +1,6 @@
 import { createAccount } from "./services/account-service";
 
-
-// ==========================================
 // CREATE ACCOUNTS
-// ==========================================
 
 const savings = createAccount(
     "Chigozie",
@@ -20,10 +17,7 @@ const premium = createAccount(
     "premium"
 );
 
-
-// ==========================================
 // SAVINGS ACCOUNT
-// ==========================================
 
 console.log("\n===== SAVINGS ACCOUNT =====");
 
@@ -33,10 +27,7 @@ savings.deposit(100000);
 
 savings.checkBalance();
 
-
-// ==========================================
 // BUSINESS ACCOUNT
-// ==========================================
 
 console.log("\n===== BUSINESS ACCOUNT =====");
 
@@ -48,10 +39,7 @@ business.withdraw(10000);
 
 business.checkBalance();
 
-
-// ==========================================
 // PREMIUM ACCOUNT
-// ==========================================
 
 console.log("\n===== PREMIUM ACCOUNT =====");
 
